@@ -29,3 +29,26 @@ To use the components in your app, import them from the `ui` package.
 ```tsx
 import { Button } from "@workspace/ui/components/button"
 ```
+
+npm install -g pnpm@latest
+
+pnpm self update
+
+pnpm dlx shadcn@2.9.2 init
+
+pnpm add turbo --global
+
+pnpm install
+
+package name = @workspace/package_name
+
+turbo build
+
+next dev --turbopack --port 3001
+
+pnpm -F package_name(monorepo) add --save-dev to_be_installed_package_name
+
+turbo expo nextjs clerk convex
+
+turbo dev
+
