@@ -1,6 +1,6 @@
 import { Button } from "@workspace/ui/components/button"
 import { api } from "@workspace/backend/_generated/api"
-import { UserProfile, UserButton } from "@clerk/nextjs"
+import { UserProfile, UserButton, OrganizationSwitcher } from "@clerk/nextjs"
 
 export default function Page() {
   return (
@@ -11,6 +11,7 @@ export default function Page() {
       </div>
       <UserProfile /> 
       <UserButton />
+      <OrganizationSwitcher hidePersonal />
     </div>
   )
 }
