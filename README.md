@@ -14,6 +14,9 @@ To use the components in your app, import them from the `ui` package.
 import { Button } from "@workspace/ui/components/button"
 ```
 
+turbo expo nextjs clerk convex -> github repo
+
+
 npm install -g pnpm@latest
 
 pnpm self update
@@ -32,7 +35,6 @@ next dev --turbopack --port 3001
 
 pnpm -F package_name(monorepo) add --save-dev to_be_installed_package_name
 
-turbo expo nextjs clerk convex
 
 turbo dev
 
