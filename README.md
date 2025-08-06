@@ -1,20 +1,4 @@
-# shadcn/ui monorepo template
 
-This template is for creating a monorepo with shadcn/ui.
-
-## Usage
-
-```bash
-pnpm dlx shadcn@latest init
-```
-
-## Adding components
-
-To add components to your app, run the following command at the root of your `web` app:
-
-```bash
-pnpm dlx shadcn@latest add button -c apps/web
-```
 
 This will place the ui components in the `packages/ui/src/components` directory.
 
@@ -51,4 +35,8 @@ pnpm -F package_name(monorepo) add --save-dev to_be_installed_package_name
 turbo expo nextjs clerk convex
 
 turbo dev
+
+pnpm view eslint@9.20.0
+
+pnpm -F backend add --save-dev @types/node
 
